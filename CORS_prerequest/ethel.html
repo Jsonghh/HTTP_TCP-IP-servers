@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ethel</title>
+</head>
+<body>
+<script>
+  // allowed method by default: GET, HEAD, POST
+  // allowed Content-Type by default: text/plain, multipart/form-data, application/x-www-form-urlencoded
+	fetch('http://127.0.0.1:8887/', {
+    method: 'POST',
+    headers: {
+			'X-Test-Cors': '123'
+    }
+  });
+</script>
+</body>
+
+</html>
+
